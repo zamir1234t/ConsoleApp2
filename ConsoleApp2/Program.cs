@@ -1,6 +1,9 @@
 ﻿using System;
 using local.ConsoleApp2;
 using ferst.ConsoleApp2;
+using two.Services;
+using ConsoleApp2.newFolder;
+
 
 namespace ConsoleApp2
 {
@@ -8,7 +11,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-
+           
             //Неявное кастинг преобразование типов из большего в меньший тип данных например int в double 
             //int myNum = 9;
             //double myDouble = myNum;
@@ -73,16 +76,16 @@ namespace ConsoleApp2
             //string myString = "joins";      
             //Console.WriteLine(myString[0]);
 
-            File.Run(args);
-            test2.Run(args);
+            //File.Run(args);
+            //test2.Run(args);
             //Person.Run(args);
             //Car.Run(args);
-            test3.Run(args);
+            //test3.Run(args);
             //constant.Run(args);
-
             //MyApp.Run(args);
-            Game.Run(args);
-            Games.Run(args);
+            //Game.Run(args);
+            index.Run(args);
+            //Games.Run(args);
         }
     }
 }

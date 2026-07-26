@@ -1,16 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
+using static System.Math;
 
-namespace ConsoleApp2
+namespace two.Services
 {
-    internal static class MyApp
+    class MyApp
     {
+        public string Greate(string name)
+        {
+            var culture = CultureInfo.CurrentCulture;
+            return $"hello {name}";
+        }
         public static void Run(string[] args)
         {
-            Console.WriteLine("hello");
+            var myapp = new MyApp();
+            Console.WriteLine(myapp.Greate("coco"));
         }
     }
 }

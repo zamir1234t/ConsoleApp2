@@ -11,7 +11,7 @@ namespace ferst.ConsoleApp2
 {
    class Games
     {
-        //private Type[] member = new Type[10];
+        private Type[] member = new Type[10];
 
         //public string Names { get; set; }
         //public string LastName { get; set;}
@@ -38,10 +38,10 @@ namespace ferst.ConsoleApp2
         //public string Name { get; init; } = string.Empty;
         //public sbyte age { get; init; } = 1;
         //static class lengthConvert
-        // {
-        //     public static double FeetToMeters(double ft) => ft / 3.29;
-        //     public static double MetersToFeet(double m) => m * 3.29;
-        // }
+        //{
+        //    public static double FeetToMeters(double ft) => ft / 3.29;
+        //    public static double MetersToFeet(double m) => m * 3.29;
+        //}
         //public Type this[int i]
         //{
         //    get => member[i];
