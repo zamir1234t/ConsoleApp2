@@ -18,18 +18,18 @@ namespace ConsoleApp2.newFolder
         //    var dy = a.y * b.y;
         //    return Sin(dx*(dy));
         //}
-        public string FerstName { get; set; }
-        public string LastName { get; set; }
-        public byte Age { get; set; }
-        public bool IsMarried => Age == 19 && Age <= 65; 
-        public string local() => $"{FerstName} {LastName} {Age}";
+        //public string FerstName { get; set; }
+        //public string LastName { get; set; }
+        //public byte Age { get; set; }
+        //public bool IsMarried => Age == 19 && Age <= 65; 
+        //public string local() => $"{FerstName} {LastName} {Age}";
         public static void Run(string[] args)
         {
             //Console.WriteLine(desistore(a: (1, 2), b: (3, 4)));
-            var pe = new index();
-            pe.FerstName = "Владислав";
-            Console.WriteLine(pe.FerstName);
-            Console.WriteLine(pe.IsMarried);
+            //var pe = new index();
+            //pe.FerstName = "Владислав";
+            //Console.WriteLine(pe.FerstName);
+            //Console.WriteLine(pe.IsMarried);
         }
     }
 }

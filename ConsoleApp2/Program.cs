@@ -3,6 +3,8 @@ using local.ConsoleApp2;
 using ferst.ConsoleApp2;
 using two.Services;
 using ConsoleApp2.newFolder;
+using folders.ConsoleApp2;
+using secondes.ConsoleApp2;
 
 
 namespace ConsoleApp2
@@ -11,7 +13,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-           
+
             //Неявное кастинг преобразование типов из большего в меньший тип данных например int в double 
             //int myNum = 9;
             //double myDouble = myNum;
@@ -84,8 +86,10 @@ namespace ConsoleApp2
             //constant.Run(args);
             //MyApp.Run(args);
             //Game.Run(args);
-            index.Run(args);
+            //index.Run(args);
             //Games.Run(args);
+            //testing.Run(args);
+            sec.Run(args);
         }
     }
 }
