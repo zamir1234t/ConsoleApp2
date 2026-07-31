@@ -9,7 +9,7 @@ namespace factory.newFolder.newFolders.ConsoleApp2
     internal class eliment
     {
         
-        public static void Run(string[] args)
+        public static void Run()
         {
             string[] v = "the first line".Split('\n');
             StringBuilder a = new();

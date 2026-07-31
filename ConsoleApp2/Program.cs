@@ -5,13 +5,17 @@ using two.Services;
 using ConsoleApp2.newFolder;
 using folders.ConsoleApp2;
 using secondes.ConsoleApp2;
+using mumes.ConsoleApp2;
+using formates.ConsoleApp2;
+using factory.newFolder.newFolders.ConsoleApp2;
+using factoris.newFolder.newFolders.ConsoleApp2;
 
 
 namespace ConsoleApp2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             //Неявное кастинг преобразование типов из большего в меньший тип данных например int в double 
@@ -89,7 +93,11 @@ namespace ConsoleApp2
             //index.Run(args);
             //Games.Run(args);
             //testing.Run(args);
-            sec.Run(args);
+            //sec.Run(args);
+            //num.Run(args);
+            //formats.Run(args);
+            //eliment.Run();
+            statics.Run();
         }
     }
 }

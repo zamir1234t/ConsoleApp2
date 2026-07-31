@@ -11,10 +11,12 @@ namespace formates.ConsoleApp2;
     public static void Run(string[] args)
     {
         //счетчик от 1 до N
-        int N = Convert.ToInt32(Console.ReadLine());
-        for( int i = 1; i <= N; i++)
+        Console.WriteLine("счетчик от 1 до N");
+        int N = (int)Convert.ToInt64(Console.ReadLine());
+        for (int i = 1; i <= N; i++)
         {
             Console.WriteLine(i);
+            continue;
         }
     }
 }
