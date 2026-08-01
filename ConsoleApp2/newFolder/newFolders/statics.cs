@@ -15,11 +15,10 @@ class statics
         }
         public static void Run()
         {
-            int b = (int)Convert.ToSByte(Console.ReadLine());
-           for(int i = 0; i < b; i++)
-            {
-                Console.WriteLine(KG.KgTolbs(Convert.ToDouble(Console.ReadLine())));
-            }
+            Console.WriteLine("Enter the weight in kilograms: ");
+           double b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"Weight in kilograms: {KG.KgTolbs(b)}");
+            Console.WriteLine($"Weight in pounds: {KG.LbsToKg(b)}");
         }
     }
 }
