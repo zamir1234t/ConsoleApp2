@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace constates.test2.conatants.ConsoleApp2
 {
     class constant
     {
@@ -17,7 +17,7 @@ namespace ConsoleApp2
         {
             return weight / factor;
         }
-        public static void Run(string[] args)
+        public static void Run()
         {
             var constant = new constant();
             Console.WriteLine(constant.Name(10) + " " + constant.Name2(10));

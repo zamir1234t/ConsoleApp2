@@ -1,14 +1,17 @@
 ﻿using System;
-using local.ConsoleApp2;
-using ferst.ConsoleApp2;
-using two.Services;
-using ConsoleApp2.newFolder;
-using folders.ConsoleApp2;
-using secondes.ConsoleApp2;
-using mumes.ConsoleApp2;
-using formates.ConsoleApp2;
-using factory.newFolder.newFolders.ConsoleApp2;
-using factoris.newFolder.newFolders.ConsoleApp2;
+//using local.ConsoleApp2;
+//using ferst.ConsoleApp2;
+//using two.Services;
+//using ConsoleApp2.newFolder;
+//using folders.ConsoleApp2;
+//using secondes.ConsoleApp2;
+//using mumes.ConsoleApp2;
+//using formates.ConsoleApp2;
+//using constates.test2.conatants.ConsoleApp2;
+//using factory.newFolder.newFolders.ConsoleApp2;
+//using factoris.newFolder.newFolders.ConsoleApp2;
+//using commands.newFolder.newFolders.ConsoleApp2;
+using mallenkiy.newFolder.newFolders.ConsoleApp2;
 
 
 namespace ConsoleApp2
@@ -87,7 +90,7 @@ namespace ConsoleApp2
             //Person.Run(args);
             //Car.Run(args);
             //test3.Run(args);
-            //constant.Run(args);
+            //constant.Run();
             //MyApp.Run(args);
             //Game.Run(args);
             //index.Run(args);
@@ -97,7 +100,9 @@ namespace ConsoleApp2
             //num.Run(args);
             //formats.Run(args);
             //eliment.Run();
-            statics.Run();
+            //statics.Run();
+            //Getcommand.Run();
+            small.Run();
         }
     }
 }
