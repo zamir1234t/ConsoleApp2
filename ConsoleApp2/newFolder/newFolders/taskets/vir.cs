@@ -23,20 +23,21 @@ class vir
 
         //    public   string Introduce() => $"Hi, I'm {Name}. I'm a {JobTitle}.";
         //}
+        // 2 сектор
+        // -----------------------------------------------------------------------
+        //class Myclass
+        //{
+        //    public virtual string Nmae { get; set; }
 
-        class Myclass
-        {
-            public virtual string Nmae { get; set; }
+        //    public virtual void Method() { }
+        //}
 
-            public virtual void Method() { }
-        }
+        //class Myclass2 : Myclass
+        //{
+        //    public sealed override string Nmae { get; set; }
 
-        class Myclass2 : Myclass
-        {
-            public sealed override string Nmae { get; set; }
-
-            public sealed override void Method() { }
-        }
+        //    public sealed override void Method() { }
+        //}
         public static void Run()
         {
             //1 сектор
@@ -46,9 +47,20 @@ class vir
             //Console.WriteLine(person.Introduce());
             //-----------------------------------------------------------------------
 
-            var myclass = new Myclass2();
-            myclass.Method();
-            Console.WriteLine(myclass.Nmae);
+            // 2 сектор 
+            // ----------------------------------------------------------------------
+            //var myclass = new Myclass2();
+            //myclass.Method();
+            //Console.WriteLine(myclass.Nmae);
+
+            int n = 0;
+
+           n = Convert.ToInt32(Console.ReadLine());
+
+            for (int i =0; i < n; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
