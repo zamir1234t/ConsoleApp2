@@ -12,6 +12,10 @@
 //using factoris.newFolder.newFolders.ConsoleApp2;
 //using commands.newFolder.newFolders.ConsoleApp2;
 using mallenkiy.newFolder.newFolders.ConsoleApp2;
+using tasks.newFolder.newFolders.ConsoleApp2;
+using staets.newFolder.newFolders.taskets.ConsoleApp2;
+using Virtyal.newFolder.newFolders.taskets.ConsoleApp2;
+using optiones.newFolder.newFolders.taskets.ConsoleApp2;
 
 
 namespace ConsoleApp2
@@ -102,7 +106,11 @@ namespace ConsoleApp2
             //eliment.Run();
             //statics.Run();
             //Getcommand.Run();
-            small.Run();
+            //small.Run();
+            //task.Run();
+            //Start.Run();
+            //vir.Run();
+            options.Run();
         }
     }
 }
