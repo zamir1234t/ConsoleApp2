@@ -53,14 +53,14 @@ class vir
             //myclass.Method();
             //Console.WriteLine(myclass.Nmae);
 
-            int n = 0;
+            // int n = 0;
 
-           n = Convert.ToInt32(Console.ReadLine());
+            //n = Convert.ToInt32(Console.ReadLine());
 
-            for (int i =0; i < n; i++)
-            {
-                Console.WriteLine(i);
-            }
+            // for (int i =0; i < n; i++)
+            // {
+            //     Console.WriteLine(i);
+            // }
         }
     }
 }
