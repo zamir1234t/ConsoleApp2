@@ -37,7 +37,7 @@ namespace optiones.newFolder.newFolders.taskets.ConsoleApp2
 
             foreach (var kv in op.GetType().GetProperties())
             {
-                Console.WriteLine($"{kv.Name}: {kv.GetValue(op)}");
+                Console.WriteLine($"{kv.Name}: {kv.GetValue(op)} {kv.PropertyType}");
                 if (kv.Name == "ip" && kv.GetValue(op) is byte[] ipArr)
                 {
                     foreach (var ip in ipArr)
