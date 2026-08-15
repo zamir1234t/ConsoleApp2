@@ -40,9 +40,13 @@ namespace optiones.newFolder.newFolders.taskets.ConsoleApp2
                 Console.WriteLine($"{kv.Name}: {kv.GetValue(op)} {kv.PropertyType}");
                 if (kv.Name == "ip" && kv.GetValue(op) is byte[] ipArr)
                 {
-                    foreach (var ip in ipArr)
+                    for (int i = 0; i < ipArr.Length; i++)
                     {
-                        Console.WriteLine(ip.GetType());
+                        for (int j = 0; j < ipArr[i].ToString().Length; j++)
+                        {
+                            Console.Write($"{ipArr} ");
+                        }
+                        Console.WriteLine();
                     }
                 }
             }
